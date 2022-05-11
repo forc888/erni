@@ -1,2 +1,2 @@
 # erni
-erni..hu
+erni.hu
