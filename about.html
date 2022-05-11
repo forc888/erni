@@ -5,7 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <style>
+        .intro {
+            background: pink;
+        }
+
+        #special {
+            color: rgb(60, 0, 255);
+            text-align: center;
+        }
+    </style>
+
+    <title>ABOUT</title>
 </head>
 
 <body>
@@ -18,7 +30,7 @@
         <li><a href="/about.html">About</a></li>
     </ul>
 
-    <table>
+    <table class="intro" id="special">
         <caption>Opening hours</caption>
         <thead>
             <th>DAY</th>
@@ -38,8 +50,8 @@
                 <td>closed</td>
             </tr>
             <tr>
-                <td>Subday</td>
-                <td>closed</td>
+                <td>Sunday</td>
+                <td colspan="2">closed</td>
                 <td></td>
             </tr>
         </tbody>
@@ -50,9 +62,8 @@
         </tfoot>
     </table>
 
-
-
     <a href="index.html">HOME</a>
+
 </body>
 
 </html>
